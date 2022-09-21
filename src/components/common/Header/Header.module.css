@@ -1,0 +1,14 @@
+.header {
+  padding: 25px 0;
+}
+.header__content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.header__content h1 {
+  font-size: 30px;
+  color: blue;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

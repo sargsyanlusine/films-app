@@ -1,0 +1,16 @@
+@import 'variables';
+
+//Header
+@import '../components/common/Header/Header.module';
+
+//List
+@import '../components/list/List.module.scss';
+
+html, body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}

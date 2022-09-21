@@ -1,0 +1,17 @@
+@import '../../../scss/variables';
+
+.header {
+  padding: 25px 0;
+
+  &__content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 30px;
+      color: $title-color;
+      text-transform: capitalize;
+    }
+  }
+}

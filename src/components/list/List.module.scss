@@ -1,0 +1,64 @@
+@import '../../scss/variables';
+
+.film-list {
+  padding: 5px 0;
+
+  &__content {
+    padding: 0 10px;
+  }
+
+  &__loading {
+    font-size: 30px;
+    color: $title-color;
+  }
+
+  &__error {
+    font-size: 30px;
+    color: $error-message-color;
+  }
+
+  &__items {
+    display: flex;
+    //display: inline-grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    //grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  &__item {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $border-color;
+    border-radius: 16px;
+    flex: 0 0 25%;
+
+    img {
+      width: 100%;
+      min-width: 0;
+      border-radius: 16px;
+    }
+  }
+  &__title {
+    font-size: 25px;
+    color: $title-color;
+  }
+
+  &__description {
+    font-size: 16px;
+    color: $border-color;
+    padding: 0 10px;
+  }
+  &__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: $border-color;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
